@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+    width: 400px;
+}
+
+header {
+    margin: 44px 0 114px 76px;
+}
+
+.link-header {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 23px;
+    color: #989D9C;
+    transition: 0.3s ease-in-out;
+}
+
+.link-header:hover {
+    color: #626262;
+}
+
+.link-header:active {
+    opacity: 0.5;
+}
+
+.link-header-login {
+    padding: 5px 19px;
+    background-color: #665AE1;
+    border-radius: 50px;
+    color: #FFFFFF;
+    box-shadow: 0 3px 4px #bcbcbc;
+}
+
+.link-header-login:hover {
+    color: #FFFFFF;
+    background-color: #453cab;
+}
+
+section {
+    width: 500px;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+h1 {
+    font-size: 85px;
+    font-weight: 900;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    color: #515151;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #848484;
+    margin-top: 18px;
+    margin-bottom: 35px;
+}
+
+.btn-section {
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ADFF00;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 3px 4px #bcbcbc;
+}
+
+.btn-section:hover {
+    background-color: #9ce400;
+}
+
+.btn-section:active {
+    opacity: 0.5;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    section {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .logo {
+        width: 300px;
+    }
+
+    section {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .link-header {
+        font-size: 18px;
+    }
+
+    .btn-section {
+        font-size: 18px;
+        width: 150px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    header {
+        display: none;
+    }
+
+    main {
+        min-height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    p {
+        display: none;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .logo {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
